@@ -1,24 +1,37 @@
-# NgMatTable
+# PurchaseOrderLib
 
 This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.0.
 
-## Code scaffolding
 
-Run `ng generate component component-name --project NgMatTable` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project NgMatTable`.
-> Note: Don't forget to add `--project NgMatTable` or else it will be added to the default project in your `angular.json` file. 
 
-## Build
 
-Run `ng build NgMatTable` to build the project. The build artifacts will be stored in the `dist/` directory.
+example
+=======
 
-## Publishing
+``` html
+  <PurchaseOrderLib [purchaseItemsObservable]=purchaseItemsObservable [truckCenter]="truckCenter"></PurchaseOrderLib>
 
-After building your library with `ng build NgMatTable`, go to the dist folder `cd dist/ng-mat-table` and run `npm publish`.
+```
 
-## Running unit tests
+***
 
-Run `ng test NgMatTable` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```ts
+  public purchaseItemsObservable  = poData;
+  public truckCenter = tcData
+```
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+install
+=======
+
+With [npm](http://npmjs.org) do:
+
+```
+npm install purchase-order-lib
+```
+
+notes
+=====
+
+This module was written while sitting high above the ground in a tree.
